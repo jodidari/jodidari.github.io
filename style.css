@@ -7,14 +7,11 @@ body{
 	font-size:16px;
 }
 
-.clear { clear: both; }
-
-/*#page-size { width: 1000px; margin: 40px auto 60px; }*/
-
 h1{
 	top: 200px;
 	display: inline;
 }
+
 
 img {
 	position: absolute;
@@ -30,7 +27,7 @@ img {
 
 #objective{
     width: 650px;
-    height: 100px;;
+    height: 100px;
 }
 	
 h3 {   
@@ -52,17 +49,20 @@ ul {
 	margin: 0 0 32px 17px;
 	
 }
+
        
-div.clear { 
+div.space { 
 	clear:both;
 	float: none; 
 	margin: 0; 
 	height: 10px; 
 }
+
 	
 a:hover{
     color: red
 }
+
 
 a:visited {
     color: green;
