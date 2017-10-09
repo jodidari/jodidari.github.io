@@ -3,8 +3,9 @@
 	padding: 0; }
 
 body{
-	font-family: Garamond;
-	font-size:16px;
+	font-family: Georgia !important;
+	font-size:15px !important;
+	line-height: 1.5;
 }
 
 h1{
@@ -14,18 +15,19 @@ h1{
 
 img {
 	position: absolute;
-	height:200px;
-	width:250px;
-	left:70%;
-	top: 18%;
+	height:250px;
+	width:230px;
+	left:60%;
+	top: 20%;
 	-webkit-transform: rotate(-10deg);
 	-ms-transform: rotate(-10deg);
 	border: 1px solid grey;
 	box-shadow: 5px 5px silver;
 }
 
+
 #objective{
-    width: 650px;
+    width: 550px;
     height: 100px;
 }
 	
@@ -35,21 +37,24 @@ h3 {
 	padding: 10px; 
 	width: 150px; 
 	float: left; 
-	height: 140px; 
-	border-right: 3px solid teal;  
-}     
+	height: 145px; 
+	border-right: 3px solid teal; 
+}      
         
 ul { 
 	position:relative;
 	display:block;
 	top:15px;
 	left:50px;
-	margin: 0px 15px;
+	padding:0.5px;
+	margin: 0px 15px;	
+	line-height: 0.8 !important;
 }
       
-div.space { 
+.space { 
 	clear:both;
-	height: 5px; 
+	float:none;
+	height: 8px !important; 
 }
 	
 a:hover{
